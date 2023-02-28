@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #9999FF;
+}
+
+.login-container {
+	width: 400px;
+	height: 500px;
+	background-color: cornflowerblue;
+	border: 1px solid #9966FF;
+	border-radius: 10px;
+}
+
+.header {
+	width: auto;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background-color: midnightblue;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.form {
+	padding: 24px 32px;
+}
+
+.form-group {
+	padding-bottom: 16px;
+}
+
+.form-group input {
+	width: 100%;
+	height: 36px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.form-checkbox {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 0;
+	font-size: 12px;
+}
+
+.form-checkbox input {
+	margin-right: 30px;
+}
+
+.register {
+	margin-top: 32px;
+	text-align: right;
+}
+
+.register button {
+	width: 120px;
+	height: 35px;
+	border-radius: 8px;
+	color: #fff;
+	background-color: green;
+	cursor: pointer;
+}
